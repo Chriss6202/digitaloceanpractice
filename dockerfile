@@ -2,7 +2,7 @@ FROM node:current-alpine
 
 RUN mkdir -p /usr/src/app
 
-WORDKIR /usr/src/app
+WORKDIR /usr/src/app
 
 COPY package*.json ./
 
